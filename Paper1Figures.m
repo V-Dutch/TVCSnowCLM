@@ -1167,7 +1167,7 @@ histogram(CLMSnowKeff_STest60,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'E
 histogram(CLMSnowKeff_STest70,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[0 0.2235 0.3705],'Normalization','probability'); % navy
 histogram(CLMSnowKeff_Run0_Sturm,edgeu,'DisplayStyle', 'stairs','LineWidth', 2.2,'EdgeColor','b','Normalization','probability'); % blue
 xlim([0 0.65])
-legend({'Baseline', '\alpha = 0.7','\alpha = 0.6','\alpha = 0.5', '\alpha = 0.4','\alpha = 0.3', 'Sturm'}, 'Location', 'NorthEast');
+legend({'Jordan (Default)', '\alpha = 0.7','\alpha = 0.6','\alpha = 0.5', '\alpha = 0.4','\alpha = 0.3', 'Sturm'}, 'Location', 'NorthEast');
 legend boxoff
 pbaspect([1 1 1])
 ylim([0 1])
