@@ -19,6 +19,6 @@ In order to create figures;
 1. Add snowpit data to TVCSnowpits folder from zip file at https://figshare.com/articles/dataset/TVC_Array_09_2021_zip/16685041
 2. Run Paper1Figures.m
 
-v1.1 - V. R. Dutch, Jan 2022
+v1.2 - V. R. Dutch, Jan 2022
 
 *Dave Van Tol (2020). Shaded area plot (https://www.mathworks.com/matlabcentral/fileexchange/18738-shaded-area-plot), MATLAB Central File Exchange. Retrieved October 2020.
