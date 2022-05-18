@@ -4,55 +4,55 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Import Data
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Baseline'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Baseline'
 Run0_Hourly = readtimetable('Run0_S4_Hourly.csv');
 Run0_Daily = readtimetable('Run0_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.75(25%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.75(25%)'
 STest25_Hourly = readtimetable('STest25_S4_Hourly.csv');
 STest25_Daily = readtimetable('STest25_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.7(30%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.7(30%)'
 STest30_Hourly = readtimetable('STest30_S4_Hourly.csv');
 STest30_Daily = readtimetable('STest30_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.65(35%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.65(35%)'
 STest35_Hourly = readtimetable('STest35_S4_Hourly.csv');
 STest35_Daily = readtimetable('STest35_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.6(40%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.6(40%)'
 STest40_Hourly = readtimetable('STest40_S4_Hourly.csv');
 STest40_Daily = readtimetable('STest40_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.55(45%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.55(45%)'
 STest45_Hourly = readtimetable('STest45_S4_Hourly.csv');
 STest45_Daily = readtimetable('STest45_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.5(50%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.5(50%)'
 STest50_Hourly = readtimetable('STest50_S4_Hourly.csv');
 STest50_Daily = readtimetable('STest50_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.45(55%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.45(55%)'
 STest55_Hourly = readtimetable('STest55_S4_Hourly.csv');
 STest55_Daily = readtimetable('STest55_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.4(60%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.4(60%)'
 STest60_Hourly = readtimetable('STest60_S4_Hourly.csv');
 STest60_Daily = readtimetable('STest60_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.35(65%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.35(65%)'
 STest65_Hourly = readtimetable('STest65_S4_Hourly.csv');
 STest65_Daily = readtimetable('STest65_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.3(70%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.3(70%)'
 STest70_Hourly = readtimetable('STest70_S4_Hourly.csv');
 STest70_Daily = readtimetable('STest70_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0.25(75%)'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0.25(75%)'
 STest75_Hourly = readtimetable('STest75_S4_Hourly.csv');
 STest75_Daily = readtimetable('STest75_S4_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\Alpha=0'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\Alpha=0'
 STest100_Hourly = readtimetable('STest100_S4_Hourly.csv');
 STest100_Daily = readtimetable('STest100_S4_Daily.csv');
 
@@ -60,13 +60,13 @@ cd 'D:\PhD Work\Modelling\CLM\Output Data From CLM\Paper 1\GitRepo\Sturm\Sturm_N
 Run0_Sturm_Hourly = readtimetable('Run0_Sturm_Hourly.csv');
 Run0_Sturm_Daily = readtimetable('Run0_Sturm_Daily.csv');
 
-cd 'D:\PhD Work\Modelling\CLM\Output Data From CLM\Paper 1\GitRepo\Sturm\Sturm_Alpha=0.3(70%)'
-STest70_Sturm_Hourly = readtimetable('STest70_Sturm_Hourly.csv');
-STest70_Sturm_Daily = readtimetable('STest70_Sturm_Daily.csv');
+cd 'D:\PhD Work\Modelling\CLM\Output Data From CLM\Paper 1\GitRepo\Calonne'
+Run0_Calonne_Hourly = readtimetable('Run0_Calonne_Hourly.csv');
+Run0_Calonne_Daily = readtimetable('Run0_Calonne_Daily.csv');
 
-cd 'D:\PhD Work\Modelling\CLM\Output Data From CLM\Paper 1\GitRepo\Sturm\Sturm_Alpha=0.6(40%)'
-STest40_Sturm_Hourly = readtimetable('STest40_Sturm_Hourly.csv');
-STest40_Sturm_Daily = readtimetable('STest40_Sturm_Daily.csv');
+cd 'D:\PhD Work\Modelling\CLM\Output Data From CLM\Paper 1\GitRepo\Fourteau'
+Run0_Fourteau_Hourly = readtimetable('Run0_Fourteau_Hourly.csv');
+Run0_Fourteau_Daily = readtimetable('Run0_Fourteau_Daily.csv');
 
 % Want to plot 1st August 2017 - 31st Aug 2019
 start_1719 = datetime(2017,08,01);
@@ -78,7 +78,7 @@ x_minor = [days_1719(1),days_1719(32),days_1719(62),days_1719(93),days_1719(123)
     days_1719(154),days_1719(185),days_1719(213),days_1719(244),days_1719(274),days_1719(305),days_1719(335),days_1719(366),days_1719(397),days_1719(427),days_1719(458),days_1719(488),... %2018
     days_1719(519),days_1719(550),days_1719(578),days_1719(609),days_1719(639),days_1719(670),days_1719(700),days_1719(731),end_1719]; %2019
 
-%% Fig 1.  - Meterological Charecterisation
+%% Fig 1. - Meterological Charecterisation
 
 % Daily Resolution
 figure()
@@ -181,8 +181,7 @@ xlim([start_1719 end_1719])
 ylabel({'Soil H_2O'; '[m^3 m^{-3}]'; ''});
 text(1665, 0, '0','FontSize', 14) %y axis labels (bc. issues)
 text(1650, 0.25, '0.25','FontSize', 14) %y axis labels (bc. issues)
-text(1655, 0.5, '0.5','FontSize', 14) %y axis labels (bc. issues) -
-% commented out bc. overlap, how to deal with this?
+text(1655, 0.5, '0.5','FontSize', 14) %y axis labels (bc. issues)
 text(1676, 0.1, 'e)','FontSize', 14) %label
 set(gca,'TickDir','out'); % puts tick marks on the outside
 h = gca;
@@ -193,8 +192,8 @@ set(gca,'FontSize', 14)
 set(t.Children,'XTick',x, 'YTick',[]); % if you remove this line, the spaces come back ... hence bodge above :(
 
 %% Fig. 2. - Snowpack Charecterisation from Snowpits
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\TVCSnowpits';
-load 'TVC_Array_Paper1v3.mat';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\TVCSnowpits';
+load 'TVC_Array_Paper1v4.mat';
 
 M = horzcat(March2018_density_FS,March2018_density_WS,March2018_density_DH, ...
 Nov2018_density_FS,Nov2018_density_WS,Nov2018_density_DH,...
@@ -246,9 +245,9 @@ ylabel('Density [kg m^{-3}]');
 set(gca,'FontSize', 16)
 
 %% Fig. 3. - Snowpack Charecterisation from SMP
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\TVCSnowpits';
-load 'TVC_Array_Paper1v3.mat';
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\TVCSnowpits';
+load 'TVC_Array_Paper1v4.mat';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021';
 
 %Median and IQ Range - Grey
 y = NormalisedScale;
@@ -341,9 +340,9 @@ camroll(-90)
 % Snow symbols in panels b - d of figure were added in illustrator
 
 %% Fig. 4 Plot - Keff SMP
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\TVCSnowpits';
-load 'TVC_Array_Paper1v3.mat';
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\TVCSnowpits';
+load 'TVC_Array_Paper1v4.mat';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021';
 
 % Median and IQR
 March18_c = rot90(MedianSMPK_eff_C_March2018_Normalised);
@@ -355,7 +354,9 @@ March18_q3s = rot90(Q3SMPK_eff_S_March2018_Normalised);
 March18_j = rot90(MedianSMPK_eff_J_March2018_Normalised);
 March18_q1j = rot90(Q1SMPK_eff_J_March2018_Normalised);
 March18_q3j = rot90(Q3SMPK_eff_J_March2018_Normalised);
-
+March18_f = rot90(MedianSMPK_eff_F_March2018_Normalised);
+March18_q1f = rot90(Q1SMPK_eff_F_March2018_Normalised);
+March18_q3f = rot90(Q3SMPK_eff_F_March2018_Normalised);
 Jan19_c = rot90(MedianSMPK_eff_C_Jan2019_Normalised);
 Jan19_q1c = rot90(Q1SMPK_eff_C_Jan2019_Normalised);
 Jan19_q3c = rot90(Q3SMPK_eff_C_Jan2019_Normalised);
@@ -365,7 +366,9 @@ Jan19_q3s = rot90(Q3SMPK_eff_S_Jan2019_Normalised);
 Jan19_j = rot90(MedianSMPK_eff_J_Jan2019_Normalised);
 Jan19_q1j = rot90(Q1SMPK_eff_J_Jan2019_Normalised);
 Jan19_q3j = rot90(Q3SMPK_eff_J_Jan2019_Normalised);
-
+Jan19_f = rot90(MedianSMPK_eff_F_Jan2019_Normalised);
+Jan19_q1f = rot90(Q1SMPK_eff_F_Jan2019_Normalised);
+Jan19_q3f = rot90(Q3SMPK_eff_F_Jan2019_Normalised);
 March19_c = rot90(MedianSMPK_eff_C_March2019_Normalised);
 March19_q1c = rot90(Q1SMPK_eff_C_March2019_Normalised);
 March19_q3c = rot90(Q3SMPK_eff_C_March2019_Normalised);
@@ -375,7 +378,9 @@ March19_q3s = rot90(Q3SMPK_eff_S_March2019_Normalised);
 March19_j = rot90(MedianSMPK_eff_J_March2019_Normalised);
 March19_q1j = rot90(Q1SMPK_eff_J_March2019_Normalised);
 March19_q3j = rot90(Q3SMPK_eff_J_March2019_Normalised);
-
+March19_f = rot90(MedianSMPK_eff_F_March2019_Normalised);
+March19_q1f = rot90(Q1SMPK_eff_F_March2019_Normalised);
+March19_q3f = rot90(Q3SMPK_eff_F_March2019_Normalised);
 y = NormalisedScale;
 
 figure()
@@ -383,121 +388,136 @@ tiledlayout(1,3,'TileSpacing','Compact');
 nexttile % March 2018
 % Calonne
 shadedplot(y,March18_q3c,March18_q1c,[0.6 0.6 0.6],[0.6 0.6 0.6]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, March18_c, 'k');
+plot (y, March18_c, 'k','LineWidth', 1.5);
 hold on
 % Sturm
 shadedplot(y,March18_q3s,March18_q1s,[0 0.4470 0.7410],[0 0.4470 0.7410]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, March18_s, 'b');
+plot (y, March18_s, 'b','LineWidth', 1.5);
 % Jordan
 shadedplot(y,March18_q3j,March18_q1j,[0.8980 0 0],[0.8980 0 0]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, March18_j, 'r');
+plot (y, March18_j, 'r','LineWidth', 1.5);
+% Fourteau
+shadedplot(y,March18_q3f,March18_q1f,[1.0000 0.6784 0.0039],[1.0000 0.6784 0.0039]);
+alpha(0.25)
+hold on
+plot (y, March18_f, 'Color', [1.0000 0.6784 0.0039],'LineWidth', 1.5);
 camroll(-90)
 hold off
 pbaspect ([1 1 1])
 xlabel ({'Percentage Depth from the'; 'air:snow interface [%]'})
-text(105, -0.009,'0','FontSize', 16) %label
-text(105, 0.085, '0.1','FontSize', 16) %label
-text(105, 0.185, '0.2','FontSize', 16) %label
-text(105, 0.285, '0.3','FontSize', 16) %label
-text(105, 0.385, '0.4','FontSize', 16) %label
-text(105, 0.485, '0.5','FontSize', 16) %label
+text(105, -0.009,'0','FontSize', 14) %label
+text(105, 0.085, '0.1','FontSize', 14) %label
+text(105, 0.185, '0.2','FontSize', 14) %label
+text(105, 0.285, '0.3','FontSize', 14) %label
+text(105, 0.385, '0.4','FontSize', 14) %label
+text(105, 0.485, '0.5','FontSize', 14) %label
 set(gca,'yticklabel',[])
 ylim ([0 0.5]);
 text(8, 0.02, {'a) March'; '2018'},'FontSize', 14) %label
 text(95, 0.41, 'n = 411','FontSize', 14) %label
-set(gca,'FontSize', 16)
+set(gca,'FontSize', 14)
 
 nexttile % Jan 2019
 % Calonne
 shadedplot(y,Jan19_q3c,Jan19_q1c,[0.6 0.6 0.6],[0.6 0.6 0.6]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, Jan19_c, 'k');
+plot (y, Jan19_c, 'k','LineWidth', 1.5);
 hold on
 % Sturm
 shadedplot(y,Jan19_q3s,Jan19_q1s,[0 0.4470 0.7410],[0 0.4470 0.7410]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, Jan19_s, 'b');
+plot (y, Jan19_s, 'b','LineWidth', 1.5);
 % Jordan
 shadedplot(y,Jan19_q3j,Jan19_q1j,[0.8980 0 0],[0.8980 0 0]);
-alpha(0.4)
+alpha(0.25)
 hold on
-plot (y, Jan19_j, 'r');
+plot (y, Jan19_j, 'r','LineWidth', 1.5);
+% Fourteau
+shadedplot(y,Jan19_q3f,Jan19_q1f,[1.0000 0.6784 0.0039],[1.0000 0.6784 0.0039]);
+alpha(0.25)
+hold on
+plot (y, Jan19_f, 'Color', [1.0000 0.6784 0.0039],'LineWidth', 1.5);
 camroll(-90)
 hold off
-text(8, 0.02, {'b) Jan'; '2019'},'FontSize', 14) %label
-text(95, 0.41, 'n = 423','FontSize', 14) %label
 pbaspect ([1 1 1])
 title ('Snow Thermal Conductivity [W m^{-1} K^{-1}]','FontWeight', 'normal') % thinks it's a title, but is acting as an xaxis label
 set(get(gca,'title'),'Position',[120 0.25 1.00011]) %sets location of title to that position on the axis
-text(105, -0.009,'0','FontSize', 16) %label
-text(105, 0.085, '0.1','FontSize', 16) %label
-text(105, 0.185, '0.2','FontSize', 16) %label
-text(105, 0.285, '0.3','FontSize', 16) %label
-text(105, 0.385, '0.4','FontSize', 16) %label
-text(105, 0.485, '0.5','FontSize', 16) %label
+text(105, -0.009,'0','FontSize', 14) %label
+text(105, 0.085, '0.1','FontSize', 14) %label
+text(105, 0.185, '0.2','FontSize', 14) %label
+text(105, 0.285, '0.3','FontSize', 14) %label
+text(105, 0.385, '0.4','FontSize', 14) %label
+text(105, 0.485, '0.5','FontSize', 14) %label
 set(gca,'yticklabel',[])
-% legend('','Calonne - IQR', 'Calonne - Q1','Calonne - Q3','Calonne - Median','', 'Sturm - IQR', 'Sturm - Q1','Sturm - Q3','Sturm - Median','Location', 'SouthOutside','numcolumns', 2)
 ylim ([0 0.5]);
-set(gca,'FontSize', 16)
+text(8, 0.02, {'b) Jan'; '2019'},'FontSize', 14) %label
+text(95, 0.41, 'n = 423','FontSize', 14) %label
+set(gca,'FontSize', 14)
 
 nexttile % March 2019
 hleg = legend('show');
 hold on
-plot (y, March19_c, 'k');
-plot (y, March19_s, 'b');
-plot (y, March19_j, 'r');
-legend('Calonne','Sturm','Jordan','Location', 'east','FontSize',14)
+plot (y, March19_c, 'k','LineWidth', 1.5);
+plot (y, March19_s, 'b','LineWidth', 1.5);
+plot (y, March19_j, 'r','LineWidth', 1.5);
+plot (y, March19_f,  'Color', [1.0000 0.6784 0.0039],'LineWidth', 1.5);
+legend({'Calonne','Sturm','Jordan','Fourteau'},'Location', 'east','FontSize',14)
 legend boxoff
 % Calonne
 shadedplot(y,March19_q3c,March19_q1c,[0.6 0.6 0.6],[0.6 0.6 0.6]);
-alpha(0.4)
+alpha(0.25)
 hold on
 % Sturm
 shadedplot(y,March19_q3s,March19_q1s,[0 0.4470 0.7410],[0 0.4470 0.7410]);
-alpha(0.4)
+alpha(0.25)
 hold on
 % Jordan
 shadedplot(y,March19_q3j,March19_q1j,[0.8980 0 0],[0.8980 0 0]);
-alpha(0.4)
+alpha(0.25)
 hold on
-hleg.String(4:end) = []; % deletes all but first 3 legend entries
+% Fourteau
+shadedplot(y,March19_q3f,March19_q1f,[1.0000 0.6784 0.0039],[1.0000 0.6784 0.0039]);
+alpha(0.25)
+hold on
+plot (y, March19_f, 'Color', [1.0000 0.6784 0.0039],'LineWidth', 1.5);
+hleg.String(5:end) = []; % deletes all but first 4 legend entries
 camroll(-90)
 hold off
-box on
 ylim ([0 0.5]);
+pbaspect([1 1 1])
 text(8, 0.02, {'c) March'; '2019'},'FontSize', 14) %label
 text(95, 0.41, 'n = 217','FontSize', 14) %label
-text(105, -0.009,'0','FontSize', 16) %label
-text(105, 0.085, '0.1','FontSize', 16) %label
-text(105, 0.185, '0.2','FontSize', 16) %label
-text(105, 0.285, '0.3','FontSize', 16) %label
-text(105, 0.385, '0.4','FontSize', 16) %label
-text(105, 0.485, '0.5','FontSize', 16) %label
+text(105, -0.009,'0','FontSize', 14) %label
+text(105, 0.085, '0.1','FontSize', 14) %label
+text(105, 0.185, '0.2','FontSize', 14) %label
+text(105, 0.285, '0.3','FontSize', 14) %label
+text(105, 0.385, '0.4','FontSize', 14) %label
+text(105, 0.485, '0.5','FontSize', 14) %label
 set(gca,'yticklabel',[])
-pbaspect ([1 1 1])
-set(gca,'FontSize', 16)
+set(gca,'FontSize', 14)
+box on
 
 %% Fig. 4 Stats - Keff SMP
 % statistical similarity (ANOVA)
-SMPKeff4ANOVA_March18 = vertcat(March18_s,March18_c,March18_j);
+SMPKeff4ANOVA_March18 = vertcat(March18_s,March18_c,March18_j,March18_f);
 SMPKeff4ANOVA_March18 = rot90(SMPKeff4ANOVA_March18);
 [p_SMPANOVA_March18,tbl_SMPANOVA_March18,stats_SMPANOVA_March18] = anova1(SMPKeff4ANOVA_March18);
 multcompare(stats_SMPANOVA_March18,'Alpha',0.001)
 
-SMPKeff4ANOVA_Jan19 = vertcat(Jan19_s,Jan19_c,Jan19_j);
+SMPKeff4ANOVA_Jan19 = vertcat(Jan19_s,Jan19_c,Jan19_j,Jan19_f);
 SMPKeff4ANOVA_Jan19 = rot90(SMPKeff4ANOVA_Jan19);
 [p_SMPANOVA_Jan19,tbl_SMPANOVA_Jan19,stats_SMPANOVA_Jan19] = anova1(SMPKeff4ANOVA_Jan19);
 multcompare(stats_SMPANOVA_Jan19,'Alpha',0.001)
 
-SMPKeff4ANOVA_March19 = vertcat(March19_s,March19_c,March19_j);
+SMPKeff4ANOVA_March19 = vertcat(March19_s,March19_c,March19_j,March19_f);
 SMPKeff4ANOVA_March19 = rot90(SMPKeff4ANOVA_March19);
 [p_SMPANOVA_March19,tbl_SMPANOVA_March19,stats_SMPANOVA_March19] = anova1(SMPKeff4ANOVA_March19);
 multcompare(stats_SMPANOVA_March19,'Alpha',0.001)
@@ -769,11 +789,11 @@ cv_layer4keff = stddevlayer4Keff/meanlayer4Keff;
 cv_BulkKeff = (nanstd(LayerKeff4ANOVA))/(nanmean(LayerKeff4ANOVA));
 
 %% Fig. 6 - Keff Distributions
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\TVCSnowpits';
-load 'TVC_Array_Paper1v3.mat';
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\TVCSnowpits';
+load 'TVC_Array_Paper1v4.mat';
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021';
 
-% March 2018 - Needlprobe% March 2018 - Needlprobe
+% March 2018 - Needleprobe
 k_eff_2018 = [];
 layer_2018 = [];
 
@@ -837,12 +857,14 @@ ThermCond_Table_2018 = sortrows(ThermCond_Table_2018,'layer_2018','descend');
 March2018_Keff_S = [];
 March2018_Keff_C = [];
 March2018_Keff_J = [];
+March2018_Keff_F = [];
 
 for pit = 1:5
     pitname = (Pitnames_March2018(pit));
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -851,11 +873,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 7:8
@@ -863,6 +887,7 @@ for pit = 7:8
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -871,11 +896,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 11:12
@@ -883,6 +910,7 @@ for pit = 11:12
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -891,11 +919,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 23:24
@@ -903,6 +933,7 @@ for pit = 23:24
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -911,11 +942,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 26
@@ -923,6 +956,7 @@ for pit = 26
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -931,11 +965,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 30:35    
@@ -943,6 +979,7 @@ for pit = 30:35
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2018.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -951,11 +988,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2018.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F); 
     end
 March2018_Keff_S = vertcat(March2018_Keff_S, f);
 March2018_Keff_C = vertcat(March2018_Keff_C, a);
 March2018_Keff_J = vertcat(March2018_Keff_J, h);
-clear a f h n
+March2018_Keff_F = vertcat(March2018_Keff_F, r);
+clear a f h n r
 end
 
 % March 2019 - Needleprobe
@@ -1007,12 +1046,14 @@ ThermCond_Table_2019 = sortrows(ThermCond_Table_2019,'layer_2019','descend');
 March2019_Keff_S = [];
 March2019_Keff_C = [];
 March2019_Keff_J = [];
+March2019_Keff_F = [];
 
 for pit = 1:2
     pitname = (Pitnames_March2019(pit));
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2019.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -1021,11 +1062,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F);
     end
 March2019_Keff_S = vertcat(March2019_Keff_S, f);
 March2019_Keff_C = vertcat(March2019_Keff_C, a);
 March2019_Keff_J = vertcat(March2019_Keff_J, h);
-clear a f h n
+March2019_Keff_F = vertcat(March2019_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 4:8
@@ -1033,6 +1076,7 @@ for pit = 4:8
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2019.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -1041,11 +1085,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F);
     end
 March2019_Keff_S = vertcat(March2019_Keff_S, f);
 March2019_Keff_C = vertcat(March2019_Keff_C, a);
 March2019_Keff_J = vertcat(March2019_Keff_J, h);
-clear a f h n
+March2019_Keff_F = vertcat(March2019_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 23
@@ -1053,6 +1099,7 @@ for pit = 23
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2019.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -1061,11 +1108,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F);
     end
 March2019_Keff_S = vertcat(March2019_Keff_S, f);
 March2019_Keff_C = vertcat(March2019_Keff_C, a);
 March2019_Keff_J = vertcat(March2019_Keff_J, h);
-clear a f h n
+March2019_Keff_F = vertcat(March2019_Keff_F, r);
+clear a f h n r
 end
 
 for pit = 26:32
@@ -1073,6 +1122,7 @@ for pit = 26:32
     a = [];
     f = [];
     h = [];
+    r = [];
     n = (numel(fieldnames(TVC.March_2019.(pitname).SMP.CroppedProfiles)));
     n = n-1; % because summary of cropped profiles has already been added at this point
 for smp = 1:n
@@ -1081,11 +1131,13 @@ for smp = 1:n
     a = vertcat(a,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_C);
     f = vertcat(f,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_S);
     h = vertcat(h,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_J);
+    r = vertcat(r,TVC.March_2019.(pitname).SMP.NormalisedProfiles.(fnm).RescaledK_eff_F);
     end
 March2019_Keff_S = vertcat(March2019_Keff_S, f);
 March2019_Keff_C = vertcat(March2019_Keff_C, a);
 March2019_Keff_J = vertcat(March2019_Keff_J, h);
-clear a f h n
+March2019_Keff_F = vertcat(March2019_Keff_F, r);
+clear a f h n r
 end
 
 % Pooled Histogram
@@ -1093,15 +1145,18 @@ k_eff_pooled = vertcat(k_eff_2018,k_eff_2019);
 SMP_Keff_S = vertcat(March2018_Keff_S,March2019_Keff_S);
 SMP_Keff_C = vertcat(March2018_Keff_C,March2019_Keff_C);
 SMP_Keff_J = vertcat(March2018_Keff_J,March2019_Keff_J);
+SMP_Keff_F = vertcat(March2018_Keff_F,March2019_Keff_F);
 
 % import from sensitivity test runs - convert to tables
 Run0_Daily_T = table2array(timetable2table(Run0_Daily,'ConvertRowTimes',false));
 STest30_Daily_T = table2array(timetable2table(STest30_Daily,'ConvertRowTimes',false));
-STest40_Daily_T = table2array(timetable2table(STest40_Daily,'ConvertRowTimes',false));
-STest50_Daily_T = table2array(timetable2table(STest50_Daily,'ConvertRowTimes',false));
-STest60_Daily_T = table2array(timetable2table(STest60_Daily,'ConvertRowTimes',false));
+% STest40_Daily_T = table2array(timetable2table(STest40_Daily,'ConvertRowTimes',false));
+% STest50_Daily_T = table2array(timetable2table(STest50_Daily,'ConvertRowTimes',false));
+% STest60_Daily_T = table2array(timetable2table(STest60_Daily,'ConvertRowTimes',false));
 STest70_Daily_T = table2array(timetable2table(STest70_Daily,'ConvertRowTimes',false));
 Run0_Sturm_Daily_T = table2array(timetable2table(Run0_Sturm_Daily,'ConvertRowTimes',false));
+Run0_Calonne_Daily_T = table2array(timetable2table(Run0_Calonne_Daily,'ConvertRowTimes',false));
+Run0_Fourteau_Daily_T = table2array(timetable2table(Run0_Fourteau_Daily,'ConvertRowTimes',false));
 
 % subset data from sampling campaigns
 % March 2018 = 14th - 21st (1899:1906)
@@ -1110,71 +1165,82 @@ Run0_Sturm_Daily_T = table2array(timetable2table(Run0_Sturm_Daily,'ConvertRowTim
  CLMSnowKeff_March2019_Run0 = Run0_Daily_T(2268:2277,36:39);
  CLMSnowKeff_March2018_STest30 = STest30_Daily_T(1899:1906,36:39);
  CLMSnowKeff_March2019_STest30 = STest30_Daily_T(2268:2277,36:39);
- CLMSnowKeff_March2018_STest40 = STest40_Daily_T(1899:1906,36:39);
- CLMSnowKeff_March2019_STest40 = STest40_Daily_T(2268:2277,36:39);
- CLMSnowKeff_March2018_STest50 = STest50_Daily_T(1899:1906,36:39);
- CLMSnowKeff_March2019_STest50 = STest50_Daily_T(2268:2277,36:39);
- CLMSnowKeff_March2018_STest60 = STest60_Daily_T(1899:1906,36:39);
- CLMSnowKeff_March2019_STest60 = STest60_Daily_T(2268:2277,36:39);
+%  CLMSnowKeff_March2018_STest40 = STest40_Daily_T(1899:1906,36:39);
+%  CLMSnowKeff_March2019_STest40 = STest40_Daily_T(2268:2277,36:39);
+%  CLMSnowKeff_March2018_STest50 = STest50_Daily_T(1899:1906,36:39);
+%  CLMSnowKeff_March2019_STest50 = STest50_Daily_T(2268:2277,36:39);
+%  CLMSnowKeff_March2018_STest60 = STest60_Daily_T(1899:1906,36:39);
+%  CLMSnowKeff_March2019_STest60 = STest60_Daily_T(2268:2277,36:39);
  CLMSnowKeff_March2018_STest70 = STest70_Daily_T(1899:1906,36:39);
  CLMSnowKeff_March2019_STest70 = STest70_Daily_T(2268:2277,36:39);
  CLMSnowKeff_March2018_Run0_Sturm = Run0_Sturm_Daily_T(1899:1906,36:39);
  CLMSnowKeff_March2019_Run0_Sturm = Run0_Sturm_Daily_T(2268:2277,36:39);
-
+ CLMSnowKeff_March2018_Run0_Calonne = Run0_Calonne_Daily_T(1899:1906,36:39);
+ CLMSnowKeff_March2019_Run0_Calonne = Run0_Calonne_Daily_T(2268:2277,36:39);
+ CLMSnowKeff_March2018_Run0_Fourteau = Run0_Fourteau_Daily_T(1899:1906,36:39);
+ CLMSnowKeff_March2019_Run0_Fourteau = Run0_Fourteau_Daily_T(2268:2277,36:39);
  
 % Pooled Histogram
 CLMSnowKeff_Run0 = vertcat(CLMSnowKeff_March2018_Run0, CLMSnowKeff_March2019_Run0);
 CLMSnowKeff_STest30 = vertcat(CLMSnowKeff_March2018_STest30, CLMSnowKeff_March2019_STest30);
-CLMSnowKeff_STest40 = vertcat(CLMSnowKeff_March2018_STest40, CLMSnowKeff_March2019_STest40);
-CLMSnowKeff_STest50 = vertcat(CLMSnowKeff_March2018_STest50, CLMSnowKeff_March2019_STest50);
-CLMSnowKeff_STest60 = vertcat(CLMSnowKeff_March2018_STest60, CLMSnowKeff_March2019_STest60);
+% CLMSnowKeff_STest40 = vertcat(CLMSnowKeff_March2018_STest40, CLMSnowKeff_March2019_STest40);
+% CLMSnowKeff_STest50 = vertcat(CLMSnowKeff_March2018_STest50, CLMSnowKeff_March2019_STest50);
+% CLMSnowKeff_STest60 = vertcat(CLMSnowKeff_March2018_STest60, CLMSnowKeff_March2019_STest60);
 CLMSnowKeff_STest70 = vertcat(CLMSnowKeff_March2018_STest70, CLMSnowKeff_March2019_STest70);
 CLMSnowKeff_Run0_Sturm = vertcat(CLMSnowKeff_March2018_Run0_Sturm, CLMSnowKeff_March2019_Run0_Sturm);
+CLMSnowKeff_Run0_Calonne = vertcat(CLMSnowKeff_March2018_Run0_Calonne, CLMSnowKeff_March2019_Run0_Calonne);
+CLMSnowKeff_Run0_Fourteau = vertcat(CLMSnowKeff_March2018_Run0_Fourteau, CLMSnowKeff_March2019_Run0_Fourteau);
 
 CLMSnowKeff_Run0 = reshape(CLMSnowKeff_Run0,[],1);
 CLMSnowKeff_STest30 = reshape(CLMSnowKeff_STest30,[],1);
-CLMSnowKeff_STest40 = reshape(CLMSnowKeff_STest40,[],1);
-CLMSnowKeff_STest50 = reshape(CLMSnowKeff_STest50,[],1);
-CLMSnowKeff_STest60 = reshape(CLMSnowKeff_STest60,[],1);
+% CLMSnowKeff_STest40 = reshape(CLMSnowKeff_STest40,[],1);
+% CLMSnowKeff_STest50 = reshape(CLMSnowKeff_STest50,[],1);
+% CLMSnowKeff_STest60 = reshape(CLMSnowKeff_STest60,[],1);
 CLMSnowKeff_STest70 = reshape(CLMSnowKeff_STest70,[],1);
 CLMSnowKeff_Run0_Sturm = reshape(CLMSnowKeff_Run0_Sturm,[],1);
+CLMSnowKeff_Run0_Calonne = reshape(CLMSnowKeff_Run0_Calonne,[],1);
+CLMSnowKeff_Run0_Fourteau = reshape(CLMSnowKeff_Run0_Fourteau,[],1);
 
 % Histograms
 figure()
-t = tiledlayout(2,1,'TileSpacing','Compact');
+t = tiledlayout(2,1,'TileSpacing','Compact'); % how best to lay this out? second 2 orginally one plot, but too crowded/ too hard to read α results. Now top one is too small, but do I want it to overpower other two?  
 nexttile
 edgeu = [0: 0.05: 0.65];
 hold on
 histogram(k_eff_pooled, edgeu, 'FaceColor',[0.6 0.6 0.6],'Normalization','probability');
 histogram(CLMSnowKeff_Run0,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5, 'EdgeColor',[0.6350 0.0780 0.1840],'Normalization','probability'); % change colour?
-histogram(SMP_Keff_S,edgeu,'DisplayStyle', 'stairs','LineWidth', 2, 'LineStyle', '--','EdgeColor','b','Normalization','probability');
-histogram(SMP_Keff_C,edgeu,'DisplayStyle', 'stairs','LineWidth', 2, 'LineStyle', ':','EdgeColor','k','Normalization','probability');
-histogram(SMP_Keff_J,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5, 'LineStyle', '-.','EdgeColor','r','Normalization','probability');
+histogram(SMP_Keff_S,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5, 'EdgeColor','b','Normalization','probability');
+histogram(SMP_Keff_C,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5,'EdgeColor','k','Normalization','probability');
+histogram(SMP_Keff_J,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5,'EdgeColor','r','Normalization','probability');
+histogram(SMP_Keff_F,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5,'EdgeColor',[0.9290 0.6940 0.1250],'Normalization','probability');
 xlim([0 0.65])
-legend({['Needleprobe' newline 'n = 105'],['CLM' newline 'n = 64'], ['SMP - Sturm' newline 'n = 251828'], ['SMP - Calonne' newline 'n = 251828'], ['SMP - Jordan' newline 'n = 251828']}, 'Position', [0.41 0.1 0.2 0.2]);
+legend({['Needleprobe' newline 'n = 105'],['CLM' newline 'n = 64'], ['SMP - Sturm' newline 'n = 251828'], ['SMP - Calonne' newline 'n = 251828'], ['SMP - Jordan' newline 'n = 251828'],  ['SMP - Fourteau' newline 'n = 251828']}, 'Position', [0.41 0.1 0.2 0.2]);
 legend boxoff
 pbaspect([1 1 1])
 text(0.01, 0.375, 'a)') %label
 % set(gca,'FontSize',14)
 nexttile
-edgeu = [0: 0.05: 0.65];
 hold on
-histogram(CLMSnowKeff_Run0,edgeu,'DisplayStyle', 'stairs','LineWidth', 2.2,'EdgeColor',[0.6350 0.0780 0.1840],'Normalization','probability'); % dark red
-histogram(CLMSnowKeff_STest30,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[1.0000 0.7176 0.8078],'Normalization','probability'); % pale red
-histogram(CLMSnowKeff_STest40,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[0.5 0.5 0.5],'Normalization','probability'); % paler grey
-histogram(CLMSnowKeff_STest50,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[0.5843 0.8157 0.9882],'Normalization','probability'); % mid blue
-histogram(CLMSnowKeff_STest60,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[0 0.4470 0.7410],'Normalization','probability'); % black
-histogram(CLMSnowKeff_STest70,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.2,'EdgeColor',[0 0.2235 0.3705],'Normalization','probability'); % navy
-histogram(CLMSnowKeff_Run0_Sturm,edgeu,'DisplayStyle', 'stairs','LineWidth', 2.2,'EdgeColor','b','Normalization','probability'); % blue
-xlim([0 0.65])
-legend({'Jordan (Default)', '\alpha = 0.7','\alpha = 0.6','\alpha = 0.5', '\alpha = 0.4','\alpha = 0.3', 'Sturm'}, 'Location', 'NorthEast');
+histogram(CLMSnowKeff_Run0,edgeu,'DisplayStyle', 'stairs','LineWidth', 2,'EdgeColor',[0.6350 0.0780 0.1840],'Normalization','probability'); % dark red
+histogram(CLMSnowKeff_STest30,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5,'EdgeColor',[1.0000 0.7176 0.8078],'Normalization','probability'); % pale red
+% histogram(CLMSnowKeff_STest40,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.25,'EdgeColor',[0.5 0.5 0.5],'Normalization','probability'); % paler grey
+% histogram(CLMSnowKeff_STest50,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.25,'EdgeColor',[0.5843 0.8157 0.9882],'Normalization','probability'); % mid blue
+% histogram(CLMSnowKeff_STest60,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.25,'EdgeColor',[0 0.4470 0.7410],'Normalization','probability'); % black
+histogram(CLMSnowKeff_STest70,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.5,'EdgeColor',[0 0.2235 0.3705],'Normalization','probability'); % navy
+histogram(CLMSnowKeff_Run0_Sturm,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.75, 'LineStyle','--','EdgeColor','b','Normalization','probability'); % blue
+histogram(CLMSnowKeff_Run0_Calonne,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.75,'LineStyle','--', 'EdgeColor','k','Normalization','probability'); % black
+histogram(CLMSnowKeff_Run0_Fourteau,edgeu,'DisplayStyle', 'stairs','LineWidth', 1.75,'LineStyle','--', 'EdgeColor',[0.9290 0.6940 0.1250],'Normalization','probability'); % yellow
+legend({'Jordan (Default)', '\alpha = 0.7','\alpha = 0.3', 'Sturm', 'Calonne', 'Fourteau'}, 'Location', 'NorthEast');
+    %'\alpha = 0.6','\alpha = 0.5', '\alpha = 0.4',
 legend boxoff
 pbaspect([1 1 1])
+xlim([0 0.65])
 ylim([0 1])
 text(0.01, 0.95,'b)') %label
 % set(gca,'FontSize',14)
 ylabel(t,'Relative Frequency')
 xlabel(t, 'Thermal Conductivity [W m^{-1} K^{-1}]')
+
 
 %% Fig. 6a - Stats
 
@@ -1183,6 +1249,7 @@ median_Keff_CLM = nanmedian(CLMSnowKeff_Run0);
 median_Keff_S = nanmedian(SMP_Keff_S);
 median_Keff_C = nanmedian(SMP_Keff_C);
 median_Keff_J = nanmedian(SMP_Keff_J);
+median_Keff_F = nanmedian(SMP_Keff_F);
 median_Keff_NP = nanmedian(k_eff_pooled);
 IQR_Keff_NP = quantile(k_eff_pooled, [0.25 0.75]);
 
@@ -1190,15 +1257,17 @@ mean_Keff_CLM = nanmean(CLMSnowKeff_Run0);
 mean_Keff_S = nanmean(SMP_Keff_S);
 mean_Keff_C = nanmean(SMP_Keff_C);
 mean_Keff_J = nanmean(SMP_Keff_J);
+mean_Keff_F = nanmean(SMP_Keff_F);
 mean_Keff_NP = nanmean(k_eff_pooled);
 
 stdev_Keff_CLM = nanstd(CLMSnowKeff_Run0);
 stdev_Keff_S = nanstd(SMP_Keff_S);
 stdev_Keff_C = nanstd(SMP_Keff_C);
 stdev_Keff_J = nanstd(SMP_Keff_J);
+stdev_Keff_F = nanstd(SMP_Keff_F);
 stdev_Keff_NP = nanstd(k_eff_pooled);
 
-% Test sample means of all 4 groups
+% Test sample means of all 6 groups
 % group 1 = SMP_S
 X = ones(1,length(SMP_Keff_S));
 SMP_S = rot90(SMP_Keff_S);
@@ -1216,9 +1285,13 @@ CLM_Keff = rot90(CLMSnowKeff_Run0);
 W = ones(1, length(k_eff_pooled));
 W = W*5;
 NP = rot90(k_eff_pooled);
+% group 6 = SMP_F
+U = X*6;
+SMP_F = rot90(SMP_Keff_F);
+
 %concatinate
-Variables = horzcat(SMP_S, SMP_C, SMP_J, CLM_Keff,NP);
-groups = horzcat(X,Y,V,Z,W);
+Variables = horzcat(SMP_S, SMP_C, SMP_J, CLM_Keff,NP, SMP_F);
+groups = horzcat(X,Y,V,Z,W,U);
 
 %Kruskal Wallis test
 [p,tbl,stats] = kruskalwallis(Variables,groups);
@@ -1268,11 +1341,14 @@ set(gca,'FontSize', 12)
 
 % Subplot 2 - Keff Parameterisations
 b = nexttile(3,[2 1]);
-plot(Run0_Daily.Time, Run0_Daily.SoilTemp_10cm_CLM, 'Color',[0.6350 0.0780 0.1840],'LineWidth', 1.5, 'LineStyle','-');
-hold on
+hold on 
 plot(Run0_Sturm_Daily.Time, Run0_Sturm_Daily.SoilTemp_10cm_CLM, 'b-','LineWidth', 1.5);
+plot(Run0_Calonne_Daily.Time, Run0_Calonne_Daily.SoilTemp_10cm_CLM, 'k-','LineWidth', 1.5);
+plot(Run0_Fourteau_Daily.Time, Run0_Fourteau_Daily.SoilTemp_10cm_CLM, 'Color',[0.9290 0.6940 0.1250],'LineWidth', 1.5);
+plot(Run0_Daily.Time, Run0_Daily.SoilTemp_10cm_CLM, 'Color',[0.6350 0.0780 0.1840],'LineWidth', 1.5, 'LineStyle','-');
 plot(Run0_Daily.Time, Run0_Daily.SoilTemp_10cm_Obs, 'k--', 'LineWidth', 1.5);
 yline(0,'k:')% add zero line
+box on
 hold off
 xlim([start_1719 end_1719])
 ylim([-30 20])
@@ -1315,14 +1391,15 @@ clear y
 set(t.Children,'XTick',x, 'YTick',[]); % if you remove this line, the spaces come back ... hence bodge above :(
 lega = legend(a,{'Baseline', '\alpha = 0.7','\alpha = 0.6','\alpha = 0.5', '\alpha = 0.4','\alpha = 0.3', 'Obs'},'Location', 'SouthEast', 'NumColumns', 2);
 set(lega,'Box','off');
-legb = legend(b,{'Jordan', 'Sturm', 'Obs'},'Location', 'SouthEast');
+legb = legend(b,{'Sturm', 'Calonne', 'Fourteau', 'Jordan','Obs'},'Location', 'SouthEast'); %  
 set(legb,'Box','off');
 legc = legend(c,'CLM', 'Obs');
 set(legc,'Box','off');
 
-%% Fig. 8 Stats - RMSE
+%% Stats - RMSE
 % Root Mean Square Error = sqrt(mean((CLM - Obs).^2))
 
+% α corrections
 % Import Data: 17-18
 % Winter 17-18 = 15th Sept - 31st May (1719:1977)
 Obs_SoilTemp_Winter1718 = Run0_Daily.SoilTemp_10cm_Obs(1719:1977);
@@ -1444,43 +1521,45 @@ RMSE_Winter1718_ALL = [RMSE_Winter1718_Run0, RMSE_Winter1718_STest25, RMSE_Winte
 RMSE_Winter1819_ALL = [RMSE_Winter1819_Run0, RMSE_Winter1819_STest25, RMSE_Winter1819_STest30, RMSE_Winter1819_STest35, RMSE_Winter1819_STest40, RMSE_Winter1819_STest45, RMSE_Winter1819_STest50, RMSE_Winter1819_STest55, RMSE_Winter1819_STest60, RMSE_Winter1819_STest65, RMSE_Winter1819_STest70, RMSE_Winter1819_STest75, RMSE_Winter1819_STest100];
 Multiplier = fliplr([0 0.25:0.05:0.75 1]);
 
-% Sturm
+% Alternative Parameterisations
 % Import Data
 % 17 - 18
 Run0_Sturm_SoilTemp_Winter1718 = Run0_Sturm_Daily.SoilTemp_10cm_CLM(1719:1977);
-STest40_Sturm_SoilTemp_Winter1718 = STest40_Sturm_Daily.SoilTemp_10cm_CLM(1719:1977);
-STest70_Sturm_SoilTemp_Winter1718 = STest70_Sturm_Daily.SoilTemp_10cm_CLM(1719:1977);
+Run0_Calonne_SoilTemp_Winter1718 = Run0_Calonne_Daily.SoilTemp_10cm_CLM(1719:1977);
+Run0_Fourteau_SoilTemp_Winter1718 = Run0_Fourteau_Daily.SoilTemp_10cm_CLM(1719:1977);
 
 % 18 -19
 Run0_Sturm_SoilTemp_Winter1819 = Run0_Sturm_Daily.SoilTemp_10cm_CLM(2084:2342);
-STest40_Sturm_SoilTemp_Winter1819 = STest40_Sturm_Daily.SoilTemp_10cm_CLM(2084:2342);
-STest70_Sturm_SoilTemp_Winter1819 = STest70_Sturm_Daily.SoilTemp_10cm_CLM(2084:2342);
+Run0_Calonne_SoilTemp_Winter1819 = Run0_Calonne_Daily.SoilTemp_10cm_CLM(2084:2342);
+Run0_Fourteau_SoilTemp_Winter1819 = Run0_Fourteau_Daily.SoilTemp_10cm_CLM(2084:2342);
 
 % Collate
-SoilTemp_Winter_Run0_Sturm = vertcat(Run0_Sturm_SoilTemp_Winter1718, Run0_Sturm_SoilTemp_Winter1819);
-SoilTemp_Winter_STest40_Sturm = vertcat(STest40_Sturm_SoilTemp_Winter1718, STest40_Sturm_SoilTemp_Winter1819);
-SoilTemp_Winter_STest70_Sturm = vertcat(STest70_Sturm_SoilTemp_Winter1718, STest70_Sturm_SoilTemp_Winter1819);
+SoilTemp_Winter_Sturm = vertcat(Run0_Sturm_SoilTemp_Winter1718, Run0_Sturm_SoilTemp_Winter1819);
+SoilTemp_Winter_Calonne = vertcat(Run0_Calonne_SoilTemp_Winter1718, Run0_Calonne_SoilTemp_Winter1819);
+SoilTemp_Winter_Fourteau = vertcat(Run0_Fourteau_SoilTemp_Winter1718, Run0_Fourteau_SoilTemp_Winter1819);
 
 % RMSE
 % 17 - 18
-RMSE_Winter1718_Run0_Sturm = sqrt(mean((Run0_Sturm_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
-RMSE_Winter1718_STest40_Sturm = sqrt(mean((STest40_Sturm_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
-RMSE_Winter1718_STest70_Sturm = sqrt(mean((STest70_Sturm_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
+RMSE_Winter1718_Sturm = sqrt(mean((Run0_Sturm_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
+RMSE_Winter1718_Calonne = sqrt(mean((Run0_Calonne_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
+RMSE_Winter1718_Fourteau = sqrt(mean((Run0_Fourteau_SoilTemp_Winter1718 - Obs_SoilTemp_Winter1718).^2));
 
 % 18 - 19
-RMSE_Winter1819_Run0_Sturm = sqrt(mean((Run0_Sturm_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1718).^2));
-RMSE_Winter1819_STest40_Sturm = sqrt(mean((STest40_Sturm_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1819).^2));
-RMSE_Winter1819_STest70_Sturm = sqrt(mean((STest70_Sturm_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1819).^2));
+RMSE_Winter1819_Sturm = sqrt(mean((Run0_Sturm_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1718).^2));
+RMSE_Winter1819_Calonne = sqrt(mean((Run0_Calonne_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1819).^2));
+RMSE_Winter1819_Fourteau = sqrt(mean((Run0_Fourteau_SoilTemp_Winter1819 - Obs_SoilTemp_Winter1819).^2));
 
 % Pooled
-RMSE_Winter_Run0_Sturm = sqrt(mean((SoilTemp_Winter_Run0_Sturm - SoilTemp_Winter_Obs).^2));
-RMSE_Winter_STest40_Sturm_Pooled = sqrt(mean((SoilTemp_Winter_STest40_Sturm - SoilTemp_Winter_Obs).^2));
-RMSE_Winter_STest70_Sturm_Pooled = sqrt(mean((SoilTemp_Winter_STest70_Sturm - SoilTemp_Winter_Obs).^2));
+RMSE_Winter_Sturm = sqrt(mean((SoilTemp_Winter_Sturm - SoilTemp_Winter_Obs).^2));
+RMSE_Winter_Calonne = sqrt(mean((SoilTemp_Winter_Calonne - SoilTemp_Winter_Obs).^2));
+RMSE_Winter_Fourteau = sqrt(mean((SoilTemp_Winter_Fourteau - SoilTemp_Winter_Obs).^2));
 
 % Reduction
-RMSE_red_Sturm = RMSE_Winter - RMSE_Winter_Run0_Sturm; 
+RMSE_red_Sturm = RMSE_Winter - RMSE_Winter_Sturm; 
+RMSE_red_Calonne = RMSE_Winter - RMSE_Winter_Calonne; 
+RMSE_red_Fourteau = RMSE_Winter - RMSE_Winter_Fourteau; 
 
-%% Fig. 8 Stats - SHTM
+%% Stats - SHTM
 % A Norm = (Air Temp Amplitude - Soil Temp Amplitude)/(Air Temp Amplitude)
 
 % A Norm - In situ:
@@ -1963,82 +2042,85 @@ SHTM_Pooled_STest65 = 1 - sqrt(2*(ANorm_STest65_Pooled - ANorm_Obs_Pooled)^2);
 SHTM_Pooled_STest70 = 1 - sqrt(2*(ANorm_STest70_Pooled - ANorm_Obs_Pooled)^2);
 SHTM_Pooled_STest75 = 1 - sqrt(2*(ANorm_STest75_Pooled - ANorm_Obs_Pooled)^2);
 
-% SHTM - Sturm runs:
+% SHTM - Alternative Keff Parameterisations:
 % A Norm
 %interpolate 20cm CLM soil temp
-CLM_SoilTemp_20cm_Run0_Sturm = Run0_Sturm_Hourly.SoilTemp_16cm_CLM + ((Run0_Sturm_Hourly.SoilTemp_26cm_CLM - Run0_Sturm_Hourly.SoilTemp_16cm_CLM)*0.4);
-CLM_SoilTemp_20cm_ST40_Sturm = STest40_Sturm_Hourly.SoilTemp_16cm_CLM + ((STest40_Sturm_Hourly.SoilTemp_26cm_CLM - STest40_Sturm_Hourly.SoilTemp_16cm_CLM)*0.4);
-CLM_SoilTemp_20cm_ST70_Sturm = STest70_Sturm_Hourly.SoilTemp_16cm_CLM + ((STest70_Sturm_Hourly.SoilTemp_26cm_CLM - STest70_Sturm_Hourly.SoilTemp_16cm_CLM)*0.4);
+CLM_SoilTemp_20cm_Sturm = Run0_Sturm_Hourly.SoilTemp_16cm_CLM + ((Run0_Sturm_Hourly.SoilTemp_26cm_CLM - Run0_Sturm_Hourly.SoilTemp_16cm_CLM)*0.4);
+CLM_SoilTemp_20cm_Calonne = Run0_Calonne_Hourly.SoilTemp_16cm_CLM + ((Run0_Calonne_Hourly.SoilTemp_26cm_CLM - Run0_Calonne_Hourly.SoilTemp_16cm_CLM)*0.4);
+CLM_SoilTemp_20cm_Fourteau = Run0_Fourteau_Hourly.SoilTemp_16cm_CLM + ((Run0_Fourteau_Hourly.SoilTemp_26cm_CLM - Run0_Fourteau_Hourly.SoilTemp_16cm_CLM)*0.4);
+
 % 2017-18 - SnowSeason_1718 = 41617:45984
 AirTemp_Run0_Sturm_1718 = Run0_Sturm_Hourly.AirTemp_CLM(41617:45984);
 MaxAirTemp_Run0_Sturm_1718 = max(AirTemp_Run0_Sturm_1718);
 MinAirTemp_Run0_Sturm_1718 = min(AirTemp_Run0_Sturm_1718);
 AirTempAmp_Run0_Sturm_1718 = MaxAirTemp_Run0_Sturm_1718 - MinAirTemp_Run0_Sturm_1718;
-SoilTemp_Run0_Sturm_1718 = CLM_SoilTemp_20cm_Run0_Sturm(41617:45984);
+SoilTemp_Run0_Sturm_1718 = CLM_SoilTemp_20cm_Sturm(41617:45984);
 MaxSoilTemp_Run0_Sturm_1718 = max(SoilTemp_Run0_Sturm_1718);
 MinSoilTemp_Run0_Sturm_1718 = min(SoilTemp_Run0_Sturm_1718);
 SoilTempAmp_Run0_Sturm_1718 = MaxSoilTemp_Run0_Sturm_1718 - MinSoilTemp_Run0_Sturm_1718;
 ANorm_Run0_Sturm_1718 = (AirTempAmp_Run0_Sturm_1718 - SoilTempAmp_Run0_Sturm_1718)/AirTempAmp_Run0_Sturm_1718;
 
-AirTemp_ST40_Sturm_1718 = STest40_Sturm_Hourly.AirTemp_CLM(41617:45984);
-MaxAirTemp_ST40_Sturm_1718 = max(AirTemp_ST40_Sturm_1718);
-MinAirTemp_ST40_Sturm_1718 = min(AirTemp_ST40_Sturm_1718);
-AirTempAmp_ST40_Sturm_1718 = MaxAirTemp_ST40_Sturm_1718 - MinAirTemp_ST40_Sturm_1718;
-SoilTemp_ST40_Sturm_1718 = CLM_SoilTemp_20cm_ST40_Sturm(41617:45984);
-MaxSoilTemp_ST40_Sturm_1718 = max(SoilTemp_ST40_Sturm_1718);
-MinSoilTemp_ST40_Sturm_1718 = min(SoilTemp_ST40_Sturm_1718);
-SoilTempAmp_ST40_Sturm_1718 = MaxSoilTemp_ST40_Sturm_1718 - MinSoilTemp_ST40_Sturm_1718;
-ANorm_ST40_Sturm_1718 = (AirTempAmp_ST40_Sturm_1718 - SoilTempAmp_ST40_Sturm_1718)/AirTempAmp_ST40_Sturm_1718;
+AirTemp_Calonne_1718 = Run0_Calonne_Hourly.AirTemp_CLM(41617:45984);
+MaxAirTemp_Calonne_1718 = max(AirTemp_Calonne_1718);
+MinAirTemp_Calonne_1718 = min(AirTemp_Calonne_1718);
+AirTempAmp_Calonne_1718 = MaxAirTemp_Calonne_1718 - MinAirTemp_Calonne_1718;
+SoilTemp_Calonne_1718 = CLM_SoilTemp_20cm_Calonne(41617:45984);
+MaxSoilTemp_Calonne_1718 = max(SoilTemp_Calonne_1718);
+MinSoilTemp_Calonne_1718 = min(SoilTemp_Calonne_1718);
+SoilTempAmp_Calonne_1718 = MaxSoilTemp_Calonne_1718 - MinSoilTemp_Calonne_1718;
+ANorm_Calonne_1718 = (AirTempAmp_Calonne_1718 - SoilTempAmp_Calonne_1718)/AirTempAmp_Calonne_1718;
 
-AirTemp_ST70_Sturm_1718 = STest70_Sturm_Hourly.AirTemp_CLM(41617:45984);
-MaxAirTemp_ST70_Sturm_1718 = max(AirTemp_ST70_Sturm_1718);
-MinAirTemp_ST70_Sturm_1718 = min(AirTemp_ST70_Sturm_1718);
-AirTempAmp_ST70_Sturm_1718 = MaxAirTemp_ST70_Sturm_1718 - MinAirTemp_ST70_Sturm_1718;
-SoilTemp_ST70_Sturm_1718 = CLM_SoilTemp_20cm_ST70_Sturm(41617:45984);
-MaxSoilTemp_ST70_Sturm_1718 = max(SoilTemp_ST70_Sturm_1718);
-MinSoilTemp_ST70_Sturm_1718 = min(SoilTemp_ST70_Sturm_1718);
-SoilTempAmp_ST70_Sturm_1718 = MaxSoilTemp_ST70_Sturm_1718 - MinSoilTemp_ST70_Sturm_1718;
-ANorm_ST70_Sturm_1718 = (AirTempAmp_ST70_Sturm_1718 - SoilTempAmp_ST70_Sturm_1718)/AirTempAmp_ST70_Sturm_1718;
+AirTemp_Fourteau_1718 = Run0_Fourteau_Hourly.AirTemp_CLM(41617:45984);
+MaxAirTemp_Fourteau_1718 = max(AirTemp_Fourteau_1718);
+MinAirTemp_Fourteau_1718 = min(AirTemp_Fourteau_1718);
+AirTempAmp_Fourteau_1718 = MaxAirTemp_Fourteau_1718 - MinAirTemp_Fourteau_1718;
+SoilTemp_Fourteau_1718 = CLM_SoilTemp_20cm_Fourteau(41617:45984);
+MaxSoilTemp_Fourteau_1718 = max(SoilTemp_Fourteau_1718);
+MinSoilTemp_Fourteau_1718 = min(SoilTemp_Fourteau_1718);
+SoilTempAmp_Fourteau_1718 = MaxSoilTemp_Fourteau_1718 - MinSoilTemp_Fourteau_1718;
+ANorm_Fourteau_1718 = (AirTempAmp_Fourteau_1718 - SoilTempAmp_Fourteau_1718)/AirTempAmp_Fourteau_1718;
 
 % 2018-19 - SnowSeason_1819 = 50377:54744
 AirTemp_Run0_Sturm_1819 = Run0_Sturm_Hourly.AirTemp_CLM(50377:54744); 
 MaxAirTemp_Run0_Sturm_1819 = max(AirTemp_Run0_Sturm_1819);
 MinAirTemp_Run0_Sturm_1819 = min(AirTemp_Run0_Sturm_1819);
 AirTempAmp_Run0_Sturm_1819 = MaxAirTemp_Run0_Sturm_1819 - MinAirTemp_Run0_Sturm_1819;
-SoilTemp_Run0_Sturm_1819 = CLM_SoilTemp_20cm_Run0_Sturm(50377:54744); 
+SoilTemp_Run0_Sturm_1819 = CLM_SoilTemp_20cm_Sturm(50377:54744); 
 MaxSoilTemp_Run0_Sturm_1819 = max(SoilTemp_Run0_Sturm_1819);
 MinSoilTemp_Run0_Sturm_1819 = min(SoilTemp_Run0_Sturm_1819);
 SoilTempAmp_Run0_Sturm_1819 = MaxSoilTemp_Run0_Sturm_1819 - MinSoilTemp_Run0_Sturm_1819;
 ANorm_Run0_Sturm_1819 = (AirTempAmp_Run0_Sturm_1819 - SoilTempAmp_Run0_Sturm_1819)/AirTempAmp_Run0_Sturm_1819;
 
-AirTemp_ST40_Sturm_1819 = STest40_Sturm_Hourly.AirTemp_CLM(50377:54744); 
-MaxAirTemp_ST40_Sturm_1819 = max(AirTemp_ST40_Sturm_1819);
-MinAirTemp_ST40_Sturm_1819 = min(AirTemp_ST40_Sturm_1819);
-AirTempAmp_ST40_Sturm_1819 = MaxAirTemp_ST40_Sturm_1819 - MinAirTemp_ST40_Sturm_1819;
-SoilTemp_ST40_Sturm_1819 = CLM_SoilTemp_20cm_ST40_Sturm(50377:54744); 
-MaxSoilTemp_ST40_Sturm_1819 = max(SoilTemp_ST40_Sturm_1819);
-MinSoilTemp_ST40_Sturm_1819 = min(SoilTemp_ST40_Sturm_1819);
-SoilTempAmp_ST40_Sturm_1819 = MaxSoilTemp_ST40_Sturm_1819 - MinSoilTemp_ST40_Sturm_1819;
-ANorm_ST40_Sturm_1819 = (AirTempAmp_ST40_Sturm_1819 - SoilTempAmp_ST40_Sturm_1819)/AirTempAmp_ST40_Sturm_1819;
+AirTemp_Calonne_1819 = Run0_Calonne_Hourly.AirTemp_CLM(50377:54744); 
+MaxAirTemp_Calonne_1819 = max(AirTemp_Calonne_1819);
+MinAirTemp_Calonne_1819 = min(AirTemp_Calonne_1819);
+AirTempAmp_Calonne_1819 = MaxAirTemp_Calonne_1819 - MinAirTemp_Calonne_1819;
+SoilTemp_Calonne_1819 = CLM_SoilTemp_20cm_Calonne(50377:54744); 
+MaxSoilTemp_Calonne_1819 = max(SoilTemp_Calonne_1819);
+MinSoilTemp_Calonne_1819 = min(SoilTemp_Calonne_1819);
+SoilTempAmp_Calonne_1819 = MaxSoilTemp_Calonne_1819 - MinSoilTemp_Calonne_1819;
+ANorm_Calonne_1819 = (AirTempAmp_Calonne_1819 - SoilTempAmp_Calonne_1819)/AirTempAmp_Calonne_1819;
 
-AirTemp_ST70_Sturm_1819 = STest70_Sturm_Hourly.AirTemp_CLM(50377:54744); 
-MaxAirTemp_ST70_Sturm_1819 = max(AirTemp_ST70_Sturm_1819);
-MinAirTemp_ST70_Sturm_1819 = min(AirTemp_ST70_Sturm_1819);
-AirTempAmp_ST70_Sturm_1819 = MaxAirTemp_ST70_Sturm_1819 - MinAirTemp_ST70_Sturm_1819;
-SoilTemp_ST70_Sturm_1819 = CLM_SoilTemp_20cm_ST70_Sturm(50377:54744); 
-MaxSoilTemp_ST70_Sturm_1819 = max(SoilTemp_ST70_Sturm_1819);
-MinSoilTemp_ST70_Sturm_1819 = min(SoilTemp_ST70_Sturm_1819);
-SoilTempAmp_ST70_Sturm_1819 = MaxSoilTemp_ST70_Sturm_1819 - MinSoilTemp_ST70_Sturm_1819;
-ANorm_ST70_Sturm_1819 = (AirTempAmp_ST70_Sturm_1819 - SoilTempAmp_ST70_Sturm_1819)/AirTempAmp_ST70_Sturm_1819;
+AirTemp_Fourteau_1819 = Run0_Fourteau_Hourly.AirTemp_CLM(50377:54744); 
+MaxAirTemp_Fourteau_1819 = max(AirTemp_Fourteau_1819);
+MinAirTemp_Fourteau_1819 = min(AirTemp_Fourteau_1819);
+AirTempAmp_Fourteau_1819 = MaxAirTemp_Fourteau_1819 - MinAirTemp_Fourteau_1819;
+SoilTemp_Fourteau_1819 = CLM_SoilTemp_20cm_Fourteau(50377:54744); 
+MaxSoilTemp_Fourteau_1819 = max(SoilTemp_Fourteau_1819);
+MinSoilTemp_Fourteau_1819 = min(SoilTemp_Fourteau_1819);
+SoilTempAmp_Fourteau_1819 = MaxSoilTemp_Fourteau_1819 - MinSoilTemp_Fourteau_1819;
+ANorm_Fourteau_1819 = (AirTempAmp_Fourteau_1819 - SoilTempAmp_Fourteau_1819)/AirTempAmp_Fourteau_1819;
 
 % SHTM = 1 - sqrt(2*(ANorm_CLM - ANorm_Obs)^2)
 
 SHTM_1718_Run0 = 1 - sqrt(2*(ANorm_Run0_1718 - ANorm_Obs_1718)^2);
 SHTM_1819_Run0 = 1 - sqrt(2*(ANorm_Run0_1819 - ANorm_Obs_1819)^2);
-SHTM_1718_ST40_Sturm = 1 - sqrt(2*(ANorm_ST40_Sturm_1718 - ANorm_Obs_1718)^2);
-SHTM_1819_ST40_Sturm = 1 - sqrt(2*(ANorm_ST40_Sturm_1819 - ANorm_Obs_1819)^2);
-SHTM_1718_ST70_Sturm = 1 - sqrt(2*(ANorm_ST70_Sturm_1718 - ANorm_Obs_1718)^2);
-SHTM_1819_ST70_Sturm = 1 - sqrt(2*(ANorm_ST70_Sturm_1819 - ANorm_Obs_1819)^2);
+SHTM_1718_Sturm = 1 - sqrt(2*(ANorm_Run0_Sturm_1718 - ANorm_Obs_1718)^2);
+SHTM_1819_Sturm = 1 - sqrt(2*(ANorm_Run0_Sturm_1819 - ANorm_Obs_1819)^2);
+SHTM_1718_Calonne = 1 - sqrt(2*(ANorm_Calonne_1718 - ANorm_Obs_1718)^2);
+SHTM_1819_Calonne = 1 - sqrt(2*(ANorm_Calonne_1819 - ANorm_Obs_1819)^2);
+SHTM_1718_Fourteau = 1 - sqrt(2*(ANorm_Fourteau_1718 - ANorm_Obs_1718)^2);
+SHTM_1819_Fourteau = 1 - sqrt(2*(ANorm_Fourteau_1819 - ANorm_Obs_1819)^2);
 
 % Pooled SHTM
 AirTemp_Run0_Sturm_Pooled = vertcat(AirTemp_Run0_Sturm_1718,AirTemp_Run0_Sturm_1819);
@@ -2051,49 +2133,31 @@ MinSoilTemp_Run0_Sturm_Pooled = min(SoilTemp_Run0_Sturm_Pooled);
 SoilTempAmp_Run0_Sturm_Pooled = MaxSoilTemp_Run0_Sturm_Pooled - MinSoilTemp_Run0_Sturm_Pooled;
 ANorm_Run0_Sturm_Pooled = (AirTempAmp_Run0_Sturm_Pooled - SoilTempAmp_Run0_Sturm_Pooled)/AirTempAmp_Run0_Sturm_Pooled;
 
-AirTemp_ST40_Sturm_Pooled = vertcat(AirTemp_ST40_Sturm_1718,AirTemp_ST40_Sturm_1819);
-MaxAirTemp_ST40_Sturm_Pooled = max(AirTemp_ST40_Sturm_Pooled);
-MinAirTemp_ST40_Sturm_Pooled = min(AirTemp_ST40_Sturm_Pooled);
-AirTempAmp_ST40_Sturm_Pooled = MaxAirTemp_ST40_Sturm_Pooled - MinAirTemp_ST40_Sturm_Pooled;
-SoilTemp_ST40_Sturm_Pooled = vertcat(SoilTemp_ST40_Sturm_1718,SoilTemp_ST40_Sturm_1819);
-MaxSoilTemp_ST40_Sturm_Pooled = max(SoilTemp_ST40_Sturm_Pooled);
-MinSoilTemp_ST40_Sturm_Pooled = min(SoilTemp_ST40_Sturm_Pooled);
-SoilTempAmp_ST40_Sturm_Pooled = MaxSoilTemp_ST40_Sturm_Pooled - MinSoilTemp_ST40_Sturm_Pooled;
-ANorm_ST40_Sturm_Pooled = (AirTempAmp_ST40_Sturm_Pooled - SoilTempAmp_ST40_Sturm_Pooled)/AirTempAmp_ST40_Sturm_Pooled;
+AirTemp_Calonne_Pooled = vertcat(AirTemp_Calonne_1718,AirTemp_Calonne_1819);
+MaxAirTemp_Calonne_Pooled = max(AirTemp_Calonne_Pooled);
+MinAirTemp_Calonne_Pooled = min(AirTemp_Calonne_Pooled);
+AirTempAmp_Calonne_Pooled = MaxAirTemp_Calonne_Pooled - MinAirTemp_Calonne_Pooled;
+SoilTemp_Calonne_Pooled = vertcat(SoilTemp_Calonne_1718,SoilTemp_Calonne_1819);
+MaxSoilTemp_Calonne_Pooled = max(SoilTemp_Calonne_Pooled);
+MinSoilTemp_Calonne_Pooled = min(SoilTemp_Calonne_Pooled);
+SoilTempAmp_Calonne_Pooled = MaxSoilTemp_Calonne_Pooled - MinSoilTemp_Calonne_Pooled;
+ANorm_Calonne_Pooled = (AirTempAmp_Calonne_Pooled - SoilTempAmp_Calonne_Pooled)/AirTempAmp_Calonne_Pooled;
 
-AirTemp_ST70_Sturm_Pooled = vertcat(AirTemp_ST70_Sturm_1718,AirTemp_ST70_Sturm_1819);
-MaxAirTemp_ST70_Sturm_Pooled = max(AirTemp_ST70_Sturm_Pooled);
-MinAirTemp_ST70_Sturm_Pooled = min(AirTemp_ST70_Sturm_Pooled);
-AirTempAmp_ST70_Sturm_Pooled = MaxAirTemp_ST70_Sturm_Pooled - MinAirTemp_ST70_Sturm_Pooled;
-SoilTemp_ST70_Sturm_Pooled = vertcat(SoilTemp_ST70_Sturm_1718,SoilTemp_ST70_Sturm_1819);
-MaxSoilTemp_ST70_Sturm_Pooled = max(SoilTemp_ST70_Sturm_Pooled);
-MinSoilTemp_ST70_Sturm_Pooled = min(SoilTemp_ST70_Sturm_Pooled);
-SoilTempAmp_ST70_Sturm_Pooled = MaxSoilTemp_ST70_Sturm_Pooled - MinSoilTemp_ST70_Sturm_Pooled;
-ANorm_ST70_Sturm_Pooled = (AirTempAmp_ST70_Sturm_Pooled - SoilTempAmp_ST70_Sturm_Pooled)/AirTempAmp_ST70_Sturm_Pooled;
+AirTemp_Fourteau_Pooled = vertcat(AirTemp_Fourteau_1718,AirTemp_Fourteau_1819);
+MaxAirTemp_Fourteau_Pooled = max(AirTemp_Fourteau_Pooled);
+MinAirTemp_Fourteau_Pooled = min(AirTemp_Fourteau_Pooled);
+AirTempAmp_Fourteau_Pooled = MaxAirTemp_Fourteau_Pooled - MinAirTemp_Fourteau_Pooled;
+SoilTemp_Fourteau_Pooled = vertcat(SoilTemp_Fourteau_1718,SoilTemp_Fourteau_1819);
+MaxSoilTemp_Fourteau_Pooled = max(SoilTemp_Fourteau_Pooled);
+MinSoilTemp_Fourteau_Pooled = min(SoilTemp_Fourteau_Pooled);
+SoilTempAmp_Fourteau_Pooled = MaxSoilTemp_Fourteau_Pooled - MinSoilTemp_Fourteau_Pooled;
+ANorm_Fourteau_Pooled = (AirTempAmp_Fourteau_Pooled - SoilTempAmp_Fourteau_Pooled)/AirTempAmp_Fourteau_Pooled;
 
-SHTM_Pooled_Run0_Sturm = 1 - sqrt(2*(ANorm_Run0_Sturm_Pooled - ANorm_Obs_Pooled)^2);
-SHTM_Pooled_ST40_Sturm = 1 - sqrt(2*(ANorm_ST40_Sturm_Pooled - ANorm_Obs_Pooled)^2);
-SHTM_Pooled_ST70_Sturm = 1 - sqrt(2*(ANorm_ST70_Sturm_Pooled - ANorm_Obs_Pooled)^2);
+SHTM_Pooled_Sturm = 1 - sqrt(2*(ANorm_Run0_Sturm_Pooled - ANorm_Obs_Pooled)^2);
+SHTM_Pooled_Calonne = 1 - sqrt(2*(ANorm_Calonne_Pooled - ANorm_Obs_Pooled)^2);
+SHTM_Pooled_Fourteau = 1 - sqrt(2*(ANorm_Fourteau_Pooled - ANorm_Obs_Pooled)^2);
 
-%% Fig. 8 Plot - RMSE & SHTM 
-figure()
-yyaxis left 
-hold on
-plot(Multiplier, RMSE_Winter1718_ALL, 'k', 'Linewidth', 1.5)
-plot(Multiplier, RMSE_Winter1819_ALL, 'LineStyle', '-', 'Color', [0.4660, 0.6740, 0.1880], 'Linewidth', 1.5)
-ylim([0 10])
-set(gca,'ycolor','k')
-ylabel('RMSE [^oC]')
-yyaxis right
-plot(Multiplier, SHTM_STests_1718, 'k--', 'Linewidth', 1.5)
-plot(Multiplier, SHTM_STests_1819, 'Color', [0.4660, 0.6740, 0.1880], 'Linewidth', 1.5)
-hold off
-ylim([0 1])
-set(gca,'ycolor','k')
-ylabel('SHTM')
-xlabel('Multiplier [\alpha]') % revisit x label?
-
-%% Fig. 9 - Best Fit Correction
+%% Fig. 8 - Best Fit Correction
 
 %  Determine Best fit correction
 %  Find absolute difference for each run 
@@ -2294,7 +2358,7 @@ SnowDepthEff_CLM_201819 = ((6*SnowDepth_Oct18Mean_CLM) + (5*SnowDepth_Nov18Mean_
 %% Fig. A2 - SMP Microstructure metrics
 
 %import raw data
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\TVCSnowpits\SMPProcessing\Results'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\TVCSnowpits\SMPProcessing\Results'
 TVC_Merged_Comparison = readtable('TVC_Merged_Comparison_4.csv');
 TVC_Merged_Comparison.Properties.VariableNames{11} = 'Proksch_RHO_mean';
 TVC_Merged_Comparison.Properties.VariableNames{12} = 'Proksch_RHO_median';
@@ -2413,24 +2477,17 @@ set(gca,'FontSize', 16)
 %% Fig B1. - Soil Profiles from Spinup
 
 % Import Spin-ups
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\SpinupTests\Baseline'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\SpinupTests\Baseline'
 Run0_s2017_Daily = readtimetable('Run0_Daily.csv');
-
 Run0_S2016_Daily = readtimetable('Run0_S1_Daily.csv');
-
 Run0_S2015_Daily = readtimetable('Run0_S2_Daily.csv');
-
 Run0_S2014_Daily = readtimetable('Run0_S3_Daily.csv');
 
-cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_NEW\CLMOutputData\SpinupTests\Alpha=0.3'
+cd 'D:\PhD Work\Data\Paper1Data_ToUpload\GitRepo_10.12.2021\CLMOutputData\SpinupTests\Alpha=0.3'
 STest70_s2017_Daily = readtimetable('STest_70_Daily.csv');
-
 STest70_S2016_Daily = readtimetable('STest70_S1_Daily.csv');
-
 STest70_S2015_Daily = readtimetable('STest70_S2_Daily.csv');
-
 STest70_S2014_Daily = readtimetable('STest70_S3_Daily.csv');
-
 
 % plot
 figure()
